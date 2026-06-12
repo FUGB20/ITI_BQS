@@ -1,0 +1,38 @@
+module rom (
+    input wire [1:0] Tcount, // 2-bit (Values: 1, 2, 3)
+    input wire [2:0] Pcount, // 3-bit (Values: 0 to 7)
+    output reg [4:0] Wtime   // Optimized: 5-bit output (Max value 21)
+);
+
+    // OPTIMIZATION: 32 locations, but each location is only 5 bits wide!
+    reg [4:0] rom_table [0:31]; 
+
+    // Integers for loop iteration ONLY. 
+    // These do NOT synthesize into hardware bits; they just guide the compiler.
+    integer t, p;
+
+    initial begin
+        // Initialize all 32 locations to 0 
+        for (integer i = 0; i < 32; i = i + 1) begin
+            rom_table[i] = 5'b00000; 
+        end
+
+        // Populate only the 24 valid combinations
+        for (t = 1; t <= 3; t = t + 1) begin
+            for (p = 0; p <= 7; p = p + 1) begin
+                if (p == 0) begin
+                    rom_table[{t[1:0], p[2:0]}] = 5'b00000;
+                end else begin
+                    // The result is safely truncated to fit into 5 bits
+                    rom_table[{t[1:0], p[2:0]}] = (3 * (p + t - 1)) / t;
+                end
+            end
+        end
+    end
+
+    // Continuous read from the optimized ROM
+    always @(*) begin
+        Wtime = rom_table[{Tcount, Pcount}];
+    end
+
+endmodule

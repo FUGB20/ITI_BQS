@@ -1,0 +1,44 @@
+module Pcounter (front, back, reset, clk, Pcount);
+parameter up = 2'b01,
+	  down = 2'b10,
+	  stay = 2'b11,
+	  n = 3;
+
+input front, back, reset, clk;
+output reg [n-1:0] Pcount;
+reg [1:0] state;
+wire frontsig, backsig;
+edge_detector s1 (front, reset, clk, frontsig);
+edge_detector s2 (back, reset, clk, backsig);
+
+always @(posedge clk or posedge reset)
+begin
+state <= {frontsig, backsig};
+if(reset)
+begin
+state <= stay;
+Pcount <= 0;
+end
+else
+begin
+case(state)
+up: begin
+if(Pcount >= 7)
+Pcount <= 7;
+else
+Pcount <= Pcount + 1;
+end
+down: begin
+if(Pcount <= 0)
+Pcount <= 0;
+else
+Pcount <= Pcount - 1;
+end
+stay: begin
+Pcount <= Pcount;
+end
+default: Pcount <= Pcount;
+endcase
+end
+end
+endmodule

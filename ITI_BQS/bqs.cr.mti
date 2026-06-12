@@ -1,0 +1,57 @@
+{D:/Verilog projects/mahara project/bqs.v} {1 {vlog -work work -stats=none {D:\Verilog projects\mahara project\bqs.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module bqs
+
+Top level modules:
+	bqs
+
+} {} {}} {D:/Verilog projects/mahara project/rom.v} {1 {vlog -work work -stats=none {D:\Verilog projects\mahara project\rom.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module rom
+
+Top level modules:
+	rom
+
+} {} {}} {D:/Verilog projects/mahara project/edge_detector.v} {1 {vlog -work work -stats=none {D:\Verilog projects\mahara project\edge_detector.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module edge_detector
+
+Top level modules:
+	edge_detector
+
+} {} {}} {D:/Verilog projects/mahara project/decoder_7seg.v} {1 {vlog -work work -stats=none {D:\Verilog projects\mahara project\decoder_7seg.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decoder_7seg
+
+Top level modules:
+	decoder_7seg
+
+} {} {}} {D:/Verilog projects/mahara project/d_ff.v} {1 {vlog -work work -stats=none {D:\Verilog projects\mahara project\d_ff.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module d_ff
+
+Top level modules:
+	d_ff
+
+} {} {}} {D:/Verilog projects/mahara project/Tcounter.v} {1 {vlog -work work -stats=none {D:\Verilog projects\mahara project\Tcounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Tcounter
+
+Top level modules:
+	Tcounter
+
+} {} {}} {D:/Verilog projects/mahara project/Pcounter.v} {1 {vlog -work work -stats=none {D:\Verilog projects\mahara project\Pcounter.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Pcounter
+
+Top level modules:
+	Pcounter
+
+} {} {}} {D:/Verilog projects/mahara project/seperator.v} {1 {vlog -work work -stats=none {D:\Verilog projects\mahara project\seperator.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seperator
+
+Top level modules:
+	seperator
+
+} {} {}}

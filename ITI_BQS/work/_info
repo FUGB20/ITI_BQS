@@ -1,0 +1,197 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Verilog projects/mahara project
+vbqs
+Z1 !s110 1781305699
+!i10b 1
+!s100 oODJdP3V7fLzYAP;iCb1I2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I97h^UQ8`P2cn3;H<NVjdB2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1781305634
+8D:\Verilog projects\mahara project\bqs.v
+FD:\Verilog projects\mahara project\bqs.v
+!i122 117
+L0 1 60
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1781305699.000000
+!s107 D:\Verilog projects\mahara project\bqs.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Verilog projects\mahara project\bqs.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vd_ff
+Z8 !s110 1781305698
+!i10b 1
+!s100 =7^[[GJEMUS]K>Jad>lKf0
+R2
+InSOm=oXO`6<T^SNe`VEL30
+R3
+R0
+w1781220140
+8D:\Verilog projects\mahara project\d_ff.v
+FD:\Verilog projects\mahara project\d_ff.v
+!i122 112
+L0 3 12
+R4
+r1
+!s85 0
+31
+!s108 1781305697.000000
+!s107 D:\Verilog projects\mahara project\d_ff.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Verilog projects\mahara project\d_ff.v|
+!i113 1
+R6
+R7
+vdecoder_7seg
+R8
+!i10b 1
+!s100 V?gjFO7>zDY4=DSf_^2f20
+R2
+I>jTlMZlZ2Nmb1a028fh@g2
+R3
+R0
+w1781144788
+8D:\Verilog projects\mahara project\decoder_7seg.v
+FD:\Verilog projects\mahara project\decoder_7seg.v
+!i122 113
+L0 1 14
+R4
+r1
+!s85 0
+31
+Z9 !s108 1781305698.000000
+!s107 D:\Verilog projects\mahara project\decoder_7seg.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Verilog projects\mahara project\decoder_7seg.v|
+!i113 1
+R6
+R7
+vedge_detector
+R8
+!i10b 1
+!s100 VMOC>iMa[d@Nm`HW2GUSK3
+R2
+I?PQkWDI`=0S@EWjNKfEAa3
+R3
+R0
+w1781216056
+8D:\Verilog projects\mahara project\edge_detector.v
+FD:\Verilog projects\mahara project\edge_detector.v
+!i122 114
+L0 1 9
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:\Verilog projects\mahara project\edge_detector.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Verilog projects\mahara project\edge_detector.v|
+!i113 1
+R6
+R7
+vPcounter
+R1
+!i10b 1
+!s100 MU?dmLfdEdWIY61la40M@3
+R2
+IOg9Yc`bj;=nzWY:iZT2=B3
+R3
+R0
+w1781239228
+8D:\Verilog projects\mahara project\Pcounter.v
+FD:\Verilog projects\mahara project\Pcounter.v
+!i122 116
+L0 1 40
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:\Verilog projects\mahara project\Pcounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Verilog projects\mahara project\Pcounter.v|
+!i113 1
+R6
+R7
+n@pcounter
+vrom
+R8
+!i10b 1
+!s100 dLZ>z:J^FT^Wf?EN@1;Ql1
+R2
+IC`GFI6O>QRGIF[>QQU`IR3
+R3
+R0
+w1781305684
+8D:\Verilog projects\mahara project\rom.v
+FD:\Verilog projects\mahara project\rom.v
+!i122 115
+L0 1 35
+R4
+r1
+!s85 0
+31
+R9
+!s107 D:\Verilog projects\mahara project\rom.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Verilog projects\mahara project\rom.v|
+!i113 1
+R6
+R7
+vseperator
+R1
+!i10b 1
+!s100 YERnV82c40aSKm4kL]G:73
+R2
+IQ3fGQJoVaV5?U@mjm:SPl3
+R3
+R0
+w1781227856
+8D:\Verilog projects\mahara project\seperator.v
+FD:\Verilog projects\mahara project\seperator.v
+!i122 119
+L0 1 12
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:\Verilog projects\mahara project\seperator.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Verilog projects\mahara project\seperator.v|
+!i113 1
+R6
+R7
+vTcounter
+R1
+!i10b 1
+!s100 BG@Z?Umb:Og@1HW6VWPKI0
+R2
+I;;WHz;1=m[C=95V9RS1l22
+R3
+R0
+w1781225259
+8D:\Verilog projects\mahara project\Tcounter.v
+FD:\Verilog projects\mahara project\Tcounter.v
+!i122 118
+L0 1 10
+R4
+r1
+!s85 0
+31
+R5
+!s107 D:\Verilog projects\mahara project\Tcounter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|D:\Verilog projects\mahara project\Tcounter.v|
+!i113 1
+R6
+R7
+n@tcounter

@@ -1,0 +1,9 @@
+module edge_detector (in, reset, clk, out);
+input in, reset, clk;
+output out;
+wire q;
+
+d_ff d1 (in, reset, clk, q);
+
+assign out = ~in & q;
+endmodule
